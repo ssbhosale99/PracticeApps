@@ -5,8 +5,8 @@ const ProductItem = (props) => {
         <li className = 'products-item'>
             <div className = "productItem">
                 <h2> {props.name}</h2>
-                <div>{props.description}</div>
-                <div>{props.price}</div>
+                <div className = "prductDescription">{props.description}</div>
+                <div className = "productPrice">{props.price}</div>
             </div>
         </li>
     );

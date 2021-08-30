@@ -33,3 +33,27 @@
   .add-product__actions {
     text-align: right;
   }
+
+  button{
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    margin: 23%;
+  }
+
+  .add-product__actions button:hover,
+.add-product__actions button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
+
+.add-product__actions button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }

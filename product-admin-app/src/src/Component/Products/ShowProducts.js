@@ -6,7 +6,7 @@ const products = (props) => {
         return <h2 className='products-list__fallback'>Found no expenses.</h2>;
       }
     return(
-        // <Card className="products">'
+        <div className="product-container">
         <ul className='products-list'>
              {props.items.map((product, index) =>  (                
             <ProductItem 
@@ -17,7 +17,7 @@ const products = (props) => {
             />
             ))}
         </ul>
-            // </Card>
+    </div>
     );
 }
 

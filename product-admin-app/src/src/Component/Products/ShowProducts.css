@@ -6,3 +6,15 @@
     color: white;
     text-align: center;
   }
+
+.product-container {
+    background-color: black;
+    padding: 1rem;
+    margin: 2rem auto;
+    /* width: 50rem; */
+    /* max-width: 95%; */
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 25%);
+
+}
